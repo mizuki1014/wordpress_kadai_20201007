@@ -7,9 +7,9 @@
     <meta name="description" content="ここにサイト説明を入れます">
     <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
-    <script src="js/openclose.js"></script>
-    <script src="js/fixmenu_pagetop.js"></script>
-    <script src="js/ddmenu_min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/openclose.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/fixmenu_pagetop.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/ddmenu_min.js"></script>
     <?php wp_head(); ?>
 </head>
 <?php get_footer(); ?>
